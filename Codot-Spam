@@ -23,7 +23,7 @@ sleep 1
 read -p "[+] Masukan No Target : " nomor
 link="https://id.jagreward.com/member/verify-mobile/$nomor"
 sleep 1
-echo "${red}[+] Spam Call Succes"
+echo "${blu}[+] Spam Call Succes:)"
 curl -s $link
 sleep 1
 echo
